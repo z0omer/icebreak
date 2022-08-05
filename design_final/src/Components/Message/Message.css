@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;800&display=swap');
+
+.message {
+    background-color: #C4E0F6;
+    height: fit-content;
+    /* min-height: 35px; */
+    width: fit-content;
+    /*fit content*/
+    /*444 111*/
+    max-width: 444px;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    margin: 10px 13px;
+    padding: 20px;
+    /* text-align: center; */
+    font-weight: normal;
+    font-family: 'Encode Sans', sans-serif;
+    color: #000000;
+    position: relative;
+}
+
+.sender {
+    margin-left: auto;
+    background-color: white;
+     
+
+}
+
+
+.sender:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 17px solid #ffffff;
+    border-right: 17px solid transparent;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid #ffffff;
+    right: -13px;
+    bottom: 0px;
+
+}
+
+.receiver:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 17px solid transparent;
+    border-right: 17px solid #C4E0F6;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid #C4E0F6;
+    left: -13px;
+    bottom: 0px;
+    
+}

@@ -1,0 +1,416 @@
+.mainPage {
+    height: 100vh;
+    background-color: #00838F;
+    display: grid;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+}
+
+.ellipseMainContainer {
+    width: 188px;
+    display: flex;
+    justify-content: center;
+}
+
+.ellipseMain {
+    margin-top: 46px;
+    margin-right: 20px;
+    width: 132px;
+    height: 132px;
+    border-radius: 100px;
+    background-image: url('../../assets/logo.svg');
+    align-self: flex-start;
+}
+
+.midContainer__headingElipse {
+    background-color: #005662;
+    ;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.leftContainer {
+    height: 93%;
+    flex: 0.20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
+    position: relative;
+}
+
+.chats {
+    background-color: #4FB3BF;
+    flex: 1;
+    /* width: 100%; */
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+
+    /* padding-top: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 9px; */
+
+}
+
+.buttonWindow {
+    width: 184px;
+    text-align: center;
+}
+
+.button {
+    width: 165px;
+    height: 47px;
+    background: #00838F;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Thabit', monospace;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.midContainer {
+    height: 80%;
+    flex: 0.60;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 86px;
+}
+
+.midContainer__heading {
+    background-color: #4FB3BF;
+    border-radius: 15px 15px 0px 0px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.midContainer__heading__chatName {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Thabit', monospace;
+    color: #FFFFFF;
+}
+
+.midContainer__body {
+    flex: 1;
+    background-color: #4F7CBF;
+    overflow: auto;
+}
+
+
+.midContainer__footer {
+    background-color: #4FB3BF;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.midContainer__footerInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midContainer__footerInput>input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    padding-bottom: 3px;
+    margin: 11px 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 30px;
+    text-align: end;
+    font-family: 'Thabit', monospace;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000000;
+}
+
+.rightContainerWrapper {
+    height: 80%;
+    flex: 0.20;
+    margin-top: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightContainer {
+    background-color: #4FB3BF;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-right: 36px;
+
+}
+
+.currencies {
+    margin-right: 38px;
+}
+
+.rightContainer__configureMsg {
+    margin-top: 11px;
+}
+
+.rightContainer__configureMsg__heading {
+    font-family: 'Thabit', monospace;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 11px 10%;
+}
+
+.rightContainer__readReward__heading {
+    font-family: 'Thabit', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.rightContainer__readReward__input>input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    padding-bottom: 3px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 30px;
+    text-align: center;
+    font-family: 'Thabit', monospace;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000000;
+}
+
+.rightContainer__unlockReward__heading {
+    font-family: 'Thabit', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.rightContainer__unlockReward__input>input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    padding-bottom: 3px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    width: 78%;
+    height: 30px;
+    text-align: center;
+    font-family: 'Thabit', monospace;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000000;
+}
+
+.rightContainer__send {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.rightContainer__send__button {
+    background: #00838F;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* text-align: center; */
+    color: #FFFCFC;
+    width: 165px;
+    height: 47px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Thabit', monospace;
+    cursor: pointer;
+
+}
+
+.ModalWithdraw {
+
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    background: #005662;
+    border-radius: 30px;
+    width: 383px;
+    Height: 385px;
+    outline-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+}
+
+.modalWithdraw__details {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.modalWithdraw__details__info {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    font-family: 'Thabit', monospace;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.ModalWithdraw__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Thabit', monospace;
+
+
+}
+
+.ModalWithdraw__buttons__deposit {
+    background: #4FB3BF;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 29px;
+    width: 141px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.ModalWithdraw__buttons__withdraw {
+    background: #4FB3BF;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 29px;
+    width: 141px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.headingModalWithdraw {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    font-family: 'Thabit', monospace;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.linkModal {
+    background: #005662;
+    outline-style: none;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    width: 788px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    padding: 0px 20px;
+
+}
+
+.linkModal__link {
+    flex: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    font-family: 'Thabit', monospace;
+    color: #FFFFFF;
+    max-width: 650px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.linkModal__copyLink {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.linkModal__copyLink__copy {
+    font-family: 'Thabit', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}

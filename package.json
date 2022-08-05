@@ -1,0 +1,27 @@
+{
+  "name": "bnb-smart-chain-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "truffle": "^5.1.65",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.0.0"
+  },
+  "description": ""
+}

@@ -1,0 +1,76 @@
+
+.modal {
+    position: fixed;
+    z-index: 500;
+    background-color: #4fb3bf;
+    width: 70%;
+    border-radius: 15px;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.modalBack{
+    background-color: #0006;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 499;
+
+    width: 100%;
+      top: 0;
+}
+
+.modal .heading{
+    color:black;
+    font-weight: bold;
+  font-size:2em;
+  text-align: center;
+}
+
+.modal .modalLogo{
+    width: 140px;
+   height: 140px;
+   background: #233447;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: relative;
+    margin: 0 auto;
+}
+
+
+.modal .modalLogo img{
+    max-height: 100%;
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.modal .btn .upperText{
+    color: black;
+    font-weight: bold;
+}
+
+.modal .btn button{
+     background-color: #005662;
+     color:#fff;
+}
+
+@media (min-width: 600px) {
+    .modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
